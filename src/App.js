@@ -17,6 +17,7 @@ import {
 	MantineProvider,
 	ColorSchemeProvider,
 	ColorScheme,
+	
 } from '@mantine/core';
 import { useColorScheme } from '@mantine/hooks';
 import { useHotkeys, useLocalStorage } from '@mantine/hooks';
@@ -26,7 +27,12 @@ export default function App() {
 	const [opened, setOpened] = useState(false);
 
 
+
+
 	
+
+
+
 
 	const preferredColorScheme = useColorScheme();
 	const [colorScheme, setColorScheme] = useLocalStorage({
