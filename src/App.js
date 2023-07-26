@@ -55,6 +55,7 @@ export default function App() {
 			{
 				title: taskTitle.current.value,
 				summary: taskSummary.current.value,
+				
 			},
 		]);
 
